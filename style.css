@@ -257,6 +257,10 @@ body {
         width: 350px;
     }
 
+    .present_form.active {
+        transform: translateY(65%);
+    }
+
     .present {
         width: 120px;
     }
@@ -286,17 +290,5 @@ body {
 
     .bg {
         width: 105vw;
-    }
-}
-
-@media screen and (max-height: 667px) {
-    .present_form.active {
-        transform: translateY(70%);
-    }
-}
-
-@media screen and (max-height: 720px) {
-    .present_form.active {
-        transform: translateY(80%);
     }
 }

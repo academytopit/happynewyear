@@ -279,10 +279,14 @@ body {
     .present_item3.active img {
         margin-left: -180px;
     }
-}
 
-@media screen and (max-width: 320px) {
-    
+    .present_item_text {
+        margin-top: -150px !important;
+    }
+
+    .bg {
+        width: 105vw;
+    }
 }
 
 @media screen and (max-height: 667px) {
